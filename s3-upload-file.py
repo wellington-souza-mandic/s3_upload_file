@@ -6,8 +6,8 @@ def store_report(settings, environment):
     """Send test results to an s3 bucket."""
 
     session = boto3.Session(
-    aws_access_key_id='AKIA2NVXN67YFD7QTUXR',
-    aws_secret_access_key='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'
+    aws_access_key_id='',
+    aws_secret_access_key=''
     )
 
     timestamp_str_y = datetime.now().strftime("%Y")
